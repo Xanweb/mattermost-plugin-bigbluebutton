@@ -205,7 +205,7 @@ export default class Root extends React.PureComponent {
                     <strong>{channelName}</strong>
                   </span>} theme={this.props.theme}/>
                 : <PopoverListMembersItem onItemClick={this.startMeeting} cam={1} text={<span> {
-                      'Create a BigBlueButton Meeting'
+                      'Create a Meeting'
                     }
                     </span>} theme={this.props.theme}/>
             }
@@ -225,7 +225,7 @@ export default class Root extends React.PureComponent {
           </div>
           <div style={style.bodyText}>
             <span >
-              {"BigBlueButton meeting request from "}
+              {"Meeting request from "}
               <strong>
                 <OverlayTrigger placement="top" overlay={tooltip}>
                   <Link to={"/" + this.props.teamname + this.state.channelURL}>

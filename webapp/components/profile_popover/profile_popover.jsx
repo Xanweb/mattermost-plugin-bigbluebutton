@@ -73,7 +73,7 @@ export default class ProfilePopover extends React.PureComponent {
               }}/> {
               this.props.user.id != this.props.cur_user.id && <div>
                   <a onClick={(e) => this.handleDirectMessage(e, url)}>
-                    <i className='fa fa-video-camera'/>{'  Start BigBlueButton Meeting'}
+                    <i className='fa fa-video-camera'/>{'  Start Meeting'}
                   </a>
                   <br/>
                 </div>

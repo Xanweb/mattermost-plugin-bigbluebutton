@@ -83,7 +83,7 @@ func (p *Plugin) OnActivate() error {
 	return p.API.RegisterCommand(&model.Command{
 		Trigger:          "bbb",
 		AutoComplete:     true,
-		AutoCompleteDesc: "Create a BigBlueButton meeting",
+		AutoCompleteDesc: "Create a meeting",
 	})
 }
 
